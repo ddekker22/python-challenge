@@ -2,7 +2,7 @@
 Module 3 Assignment: PyBank and PyPoll
 
 PyBank analyzes monthly finances for a company. PyPoll analyzes election data. 
-The repository contains the following folders for each dataset: \n
+The repository contains the following folders for each dataset: /n
   A new file called main.py. This will be the main script to run for each analysis. \n
   A Resources folder that contains the CSV files used. \n
   An analysis folder that contains a text file that has the results from each analysis. \n
