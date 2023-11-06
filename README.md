@@ -3,9 +3,9 @@ Module 3 Assignment: PyBank and PyPoll
 
 PyBank analyzes monthly finances for a company. PyPoll analyzes election data. 
 The repository contains the following folders for each dataset:  
-|    - A new file called main.py. This will be the main script to run for each analysis.  
-|    - A Resources folder that contains the CSV files used.  
-|    - An analysis folder that contains a text file that has the results from each analysis.  
+    - A new file called main.py. This will be the main script to run for each analysis.  
+    - A Resources folder that contains the CSV files used.  
+    - An analysis folder that contains a text file that has the results from each analysis.  
 
 I used information from Stack overflow for help with pushing the results to a text file. I ran through a few ideas on how to design this code, including pushing the original csv information into a list of dictionaries, but I found creating new lists for each column made the calculations and logic simpler for this dataset. 
  
