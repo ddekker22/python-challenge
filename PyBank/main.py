@@ -22,9 +22,6 @@ with open(budget_import) as csvfile:
     #skip header
     next(budget_csv)
     
-    #budget_list = list(budget_csv)
-    #print(budget_list)
-    
     #cycle through csv file and add items to new lists
     for row in budget_csv:
         month_list.append(row[0])
@@ -45,7 +42,7 @@ with open(budget_import) as csvfile:
     sum_change_profit = sum(change_profit_list)
     average_change = round(sum_change_profit/(total_months - 1), 2)
 
-    #greatest inc and dec in profits
+    #greatest inc and dec in profits rounded to whole number
     greatest_inc = round(max(change_profit_list))
     inc_index = change_profit_list.index(max(change_profit_list))+1
 
