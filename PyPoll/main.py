@@ -27,12 +27,6 @@ with open(election_import) as csvfile:
         
         candidate = row[2]
 
-
-        #I need to get the unique values for the different candidates
-        #I need to get the individual votes for each candidate
-        #How do I know how many candidates there are without looking at the results?
-        #How do I ensure votes go to each unique candidate? - create a new list for each candidate 
-
         #determine if unique candidate has already been added to the list of candidates
         if candidate in candidates_all:
             #if candidate is in the list, add a vote
